@@ -18,7 +18,7 @@ node v16.13.2
 
 ## Executar localmente
 ```
-# clone o repositório, entre na pasta do projeto
+# git clone https://github.com/neiltonrodriguez/find-github-react-typescript-tailwindcss.git
 # npm install
 # npm run dev
 ```
