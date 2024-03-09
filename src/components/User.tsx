@@ -1,5 +1,6 @@
 import { UserProps } from "../types/user";
 import { MdLocationPin } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const User = ({
   avatar_url,
@@ -42,12 +43,8 @@ const User = ({
           </div>
         </div>
         <div className="mt-5 text-white">
-          <a
-            className="bg-orange-800 flex items-center justify-center h-8 w-32 hover:bg-orange-900 duration-200  rounded-md "
-            href={html_url}
-          >
-            Ver mais
-          </a>
+          <Link to={`/repos/${login}`} className="bg-orange-800 flex items-center justify-center h-8 w-32 hover:bg-orange-900 duration-200  rounded-md ">Ver mais </Link>
+        
         </div>
       </div>
     </div>
